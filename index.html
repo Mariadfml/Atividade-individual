@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz dos Animais</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1> Quiz dos Animais</h1>
+        <p>Teste seus conhecimentos!</p>
+    </header>
+
+    <main>
+
+        <div class="pergunta">
+
+            <h2>1. Qual animal mia?</h2>
+
+            <button onclick="pergunta1('gato')">Gato</button>
+            <button onclick="pergunta1('cachorro')">Cachorro</button>
+
+            <p id="resposta1"></p>
+
+        </div>
+
+
+        <div class="pergunta">
+
+            <h2>2. Qual animal você gosta?</h2>
+
+            <input type="text" id="animal">
+
+            <button onclick="pergunta2()">Responder</button>
+
+            <p id="resposta2"></p>
+
+        </div>
+
+
+        <div class="pergunta">
+
+            <h2>3. Digite sua idade:</h2>
+
+            <input type="number" id="idade">
+
+            <button onclick="pergunta3()">Verificar</button>
+
+            <p id="resposta3"></p>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
